@@ -1,5 +1,5 @@
 // Register.jsx
-export function Register() {
+export default function Register() {
 return (
 <div className="p-6 bg-white rounded-2xl shadow-md max-w-md mx-auto text-center">
 <h2 className="text-3xl font-bold mb-4">Register</h2>
@@ -7,3 +7,4 @@ return (
 </div>
 );
 }
+
