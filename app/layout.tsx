@@ -126,7 +126,7 @@ export default function RootLayout({
                 </div>
               </div>
 
-              <div>
+              {/* <div>
                 <h3 className="text-white font-semibold mb-4">Conecta</h3>
                 <div className="flex space-x-4">
                   <a 
@@ -158,7 +158,7 @@ export default function RootLayout({
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="mt-8 pt-8 border-t border-slate-800/50 text-center text-slate-400 text-sm">
