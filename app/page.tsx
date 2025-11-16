@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Code2, Sparkles, Rocket, Mail, ChevronRight, Brain, Zap, Server, ExternalLink, Terminal, Cpu, Database, ArrowRight, Heart, Users, TrendingUp } from 'lucide-react';
+import {Menu,X, Code2, Sparkles, Rocket, Mail, ChevronRight, Brain, Zap, Server, ExternalLink, Terminal, Cpu, Database, ArrowRight, Heart, Users, TrendingUp } from 'lucide-react';
 
 interface Particle {
   id: number;
@@ -239,7 +239,7 @@ export default function GaboDevPortfolio() {
               onMouseEnter={() => setCursorVariant('code')}
               onMouseLeave={() => setCursorVariant('default')}
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {/* {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />} */}
             </button>
           </div>
         </div>
