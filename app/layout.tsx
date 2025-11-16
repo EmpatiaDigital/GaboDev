@@ -94,7 +94,7 @@ export default function RootLayout({
         </main>
 
         {/* Footer */}
-        <footer className="relative z-10 border-t border-slate-800/50 backdrop-blur-md bg-slate-950/50 mt-20">
+        {/* <footer className="relative z-10 border-t border-slate-800/50 backdrop-blur-md bg-slate-950/50 mt-20">
           <div className="max-w-7xl mx-auto px-6 py-12">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
@@ -126,7 +126,7 @@ export default function RootLayout({
                 </div>
               </div>
 
-              {/* <div>
+              <div>
                 <h3 className="text-white font-semibold mb-4">Conecta</h3>
                 <div className="flex space-x-4">
                   <a 
@@ -158,14 +158,14 @@ export default function RootLayout({
                     </svg>
                   </a>
                 </div>
-              </div> */}
+              </div>
             </div>
 
             <div className="mt-8 pt-8 border-t border-slate-800/50 text-center text-slate-400 text-sm">
               <p>© 2024 Gabo Dev. Todos los derechos reservados.</p>
             </div>
           </div>
-        </footer>
+        </footer> */}
 
       </body>
     </html>
