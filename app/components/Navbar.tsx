@@ -1,5 +1,5 @@
 // Navbar.tsx
-export function Navbar() {
+export default function Navbar() {
 return (
 <nav className="w-full bg-sky-600 text-white p-4 flex justify-between items-center shadow-md">
 <h1 className="text-xl font-bold">Mi App</h1>
@@ -12,4 +12,5 @@ return (
 </nav>
 );
 }
+
 
